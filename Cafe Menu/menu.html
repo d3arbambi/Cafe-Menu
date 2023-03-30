@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Blitz</title>
+</head>
+<body>
+    <div class="menu">
+        <main>
+            <h1>CAFE BLITZ</h1>
+            <p class="established">Est. 2023</p>
+            <hr>
+            <section>
+                <h2>Coffee</h2>
+                <img src="coffee.png" alt="coffee mug"></img>
+                <article class="item">
+                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="flavor">Mocha</p><p class="price">4.50</p>
+                  </article>
+            </section>
+
+            <section>
+                <h2>Desserts</h2>
+                <img src="cake.png" alt="Cake"></img>
+                <article class="item">
+                    <p class="dessert">Donut</p><p class="price">1.50</p>
+                  </article>
+                  <article class="item">
+                    <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+                  </article>
+                  <article class="item">
+                    <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+                  </article>
+                  <article class="item">
+                    <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+                  </article>
+            </section>
+        </main>
+        <hr class="bottom-line">
+        <footer>
+            <p>
+                <a href="https://www.instagram.com/ohkaycxb2" target="_blank">Let's Stay Connected!</a>
+            </p>
+            <p class="address"> 123 Orwell Drive</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
+<style>
+    body{
+    background-image: url(beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.established{
+    font-style: italic;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+.flavor:hover, .dessert:hover{
+    opacity: 0.7;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    max-width: 35px;
+    height: auto;
+}
+
+hr{
+    background-color:brown;
+    border-color: brown;
+    height: 2px;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+
+/*footer*/
+
+
+footer{
+    font-size: 14px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+
+a{
+    color: black;
+}
+
+a:visted{
+    color: black;
+}
+
+a:hover{
+    color:brown;
+}
+
+a:active{
+    color: brown;
+}
+</style>
